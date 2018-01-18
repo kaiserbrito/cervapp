@@ -1,2 +1,2 @@
 # cervapp
-Progessive Web App with Vue.js for brewing beer.
+Progessive Web App with Vue.js for brewring beer.
