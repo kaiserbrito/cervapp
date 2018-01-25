@@ -1,13 +1,11 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Dashboard from "@/components/Dashboard";
-import EditBeer from "@/components/EditBeer";
+import ViewBeer from "@/components/ViewBeer";
 import EditRecipe from "@/components/EditRecipe";
 import NewBeer from "@/components/NewBeer";
 import NewRecipe from "@/components/NewRecipe";
-import Recipes from "@/components/Recipes";
 import Stock from "@/components/Stock";
-import ViewBeer from "@/components/ViewBeer";
 import ViewRecipe from "@/components/ViewRecipe";
 
 Vue.use(Router);
@@ -20,9 +18,9 @@ export default new Router({
       component: Dashboard
     },
     {
-      path: "/edit-beer/:id",
-      name: "edit-beer",
-      component: EditBeer
+      path: "/view-beer/:id",
+      name: "view-beer",
+      component: ViewBeer
     },
     {
       path: "/edit-recipe/:id",
@@ -40,19 +38,9 @@ export default new Router({
       component: NewRecipe
     },
     {
-      path: "/recipes",
-      name: "recipes",
-      component: Recipes
-    },
-    {
       path: "/stock",
       name: "stock",
       component: Stock
-    },
-    {
-      path: "/view-beer/:id",
-      name: "view-beer",
-      component: ViewBeer
     },
     {
       path: "/view-recipe/:id",

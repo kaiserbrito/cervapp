@@ -1,11 +1,11 @@
 <template>
   <div id="new-beer">
-    <h2>New Beer</h2>
     <div class="container">
+      <h2>Nova Cerveja</h2>
       <form @submit.prevent="saveBeer" class="col s12">
         <div class="row">
           <div class="input-field col s12">
-            <input type="text" class="datepicker" v-model="time" required>
+            <input type="text" v-model="time" required>
             <label>Data</label>
           </div>
         </div>
@@ -27,7 +27,7 @@
               <label>Quantidade (l)</label>
             </div>
           </div>
-          <button type="submit" class="btn">Criar</button>
+          <button type="submit" class="btn green">Criar</button>
           <router-link to="/" class="btn grey">Cancelar</router-link>
       </form>
     </div>

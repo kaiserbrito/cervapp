@@ -1,6 +1,6 @@
 <template>
   <div id="dashboard" class="container">
-    <h3>Dashboard</h3>
+    <h3>Lista de Cervejas</h3>
     <table class="bordered highlight">
       <thead>
         <th>Data</th>

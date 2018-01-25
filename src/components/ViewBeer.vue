@@ -1,14 +1,13 @@
 <template>
-  <div id="view-beer">
-    <h2>View Beer</h2>
+  <div class="container" id="view-beer">    
   </div>
 </template>
 
 <script>
+import db from "./firebaseInit";
+
 export default {
   name: "view-beer",
-  data() {
-    return {};
-  }
+  data() {}
 };
 </script>

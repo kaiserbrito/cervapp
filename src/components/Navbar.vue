@@ -8,37 +8,29 @@
     <ul class="right hide-on-med-and-down">
       <li>
         <router-link to="/new-beer">
-          <i class="fa fa-beer" aria-hidden="true"></i> New Beer</router-link>
-      </li>
-      <li>
-        <router-link to="/recipes">
-          <i class="fa fa-book" aria-hidden="true"></i> Recipes</router-link>
+          <i class="fa fa-beer" aria-hidden="true"></i> Nova Cerveja</router-link>
       </li>
       <li>
         <router-link to="/new-recipe">
-          <i class="fa fa-plus" aria-hidden="true"></i> New Recipe</router-link>
+          <i class="fa fa-plus" aria-hidden="true"></i> Nova Receita</router-link>
       </li>
       <li>
         <router-link to="/stock">
-          <i class="fa fa-archive" aria-hidden="true"></i> Stock</router-link>
+          <i class="fa fa-archive" aria-hidden="true"></i> Estoque</router-link>
       </li>
     </ul>
     <ul class="side-nav" id="mobile-demo">
       <li>
         <router-link to="/new-beer">
-          <i class="fa fa-beer" aria-hidden="true"></i> New Beer</router-link>
-      </li>
-      <li>
-        <router-link to="/recipes">
-          <i class="fa fa-book" aria-hidden="true"></i> Recipes</router-link>
+          <i class="fa fa-beer" aria-hidden="true"></i> Nova Cerveja</router-link>
       </li>
       <li>
         <router-link to="/new-recipe">
-          <i class="fa fa-plus" aria-hidden="true"></i> New Recipe</router-link>
+          <i class="fa fa-plus" aria-hidden="true"></i> Nova Receita</router-link>
       </li>
       <li>
         <router-link to="/stock">
-          <i class="fa fa-archive" aria-hidden="true"></i> Stock</router-link>
+          <i class="fa fa-archive" aria-hidden="true"></i> Estoque</router-link>
       </li>
     </ul>
   </div>
@@ -53,4 +45,3 @@ export default {
   }
 };
 </script>
-
