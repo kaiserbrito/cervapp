@@ -1,5 +1,5 @@
 <template>
-  <div class="container" id="view-beer">    
+  <div class="container" id="view-beer">   
   </div>
 </template>
 
@@ -8,6 +8,8 @@ import db from "./firebaseInit";
 
 export default {
   name: "view-beer",
-  data() {}
+  data() {
+    return {}
+  }
 };
 </script>
