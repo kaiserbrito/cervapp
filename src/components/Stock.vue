@@ -13,10 +13,18 @@
         </tr>
       </tbody>
     </table>
-    <div class="fixed-action-btn">
-      <router-link to="/" class="btn-floating btn-large red">
-        <i class="fa fa-plus"></i>
-      </router-link>
+    <button data-target="modal1" class="btn modal-trigger"><i class="fa fa-plus" aria-hidden="true"></i>
+ Adicionar</button>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4>Adicionar Suprimento</h4>
+        <p>Nome</p>
+        <p>Quantidade</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+      </div>
     </div>
   </div>
 </template>
